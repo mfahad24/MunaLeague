@@ -1,0 +1,55 @@
+/* html {
+  height: 100%;
+} */
+
+body {
+  background-color: steelblue;
+}
+
+ul {
+  /* list-style-type: none; */
+  /* font-family: Tahoma; */
+  /* display: inline; */
+}
+
+li {
+  margin-top: 20px;
+  list-style-type: none;
+    font-family: Tahoma;
+    margin-left: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red !important;
+}
+
+a:visited {
+  color: black;
+}
+
+
+.navdiv {
+  height: 100vh;
+  width: 275px;
+  /* border: 1px solid black; */
+  background-color: white;
+  /* overflow: auto; */
+}
+
+.navlogo {
+  height: 150px;
+  width: 100%;
+}
+
+/* .icondiv {
+  display: flex;
+  position: relative;
+  top: 40px;
+} */
