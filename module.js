@@ -1,5 +1,5 @@
 (function (){
 
 angular
-.module("myApp", []);
+.module("myApp", ["ngRoute"]);
 })();

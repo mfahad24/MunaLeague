@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Muna League App</title>
 </head>
 
 <body>
 
-<div class="navdiv">
-<nav class="navbar">
-  <!-- <ul class="navlist"> -->
-    <img class="navlogo" src="images\logo.png">
-    <li><a href="">Home</a></li>
-    <li><a href="">Team Challenges</a></li>
-    <li><a href="">Rosters</a></li>
-    <li><a href="">Chat</a></li>
-    <!-- <div class="icondiv"><i class="material-icons">photo_library</i></div> -->
-    <li><a href="">Gallery</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">Contact</a></li>
-    <!-- <div class="icondiv"><i class="material-icons">share</i></div> -->
-    <li><a href="">Share</a></li>
-  <!-- </ul> -->
-</nav>
-</div>
+
+  <div id="outernavdiv">
+
+    <div id="openclosediv">
+      <div id="opennav">
+        <i class="material-icons">chevron_right</i>
+      </div>
+
+      <div id="closenav">
+        <i class="material-icons">chevron_left</i>
+      </div>
+    </div>
+
+    <div id="navdiv">
+      <nav class="navbar">
+        <!-- <ul class="navlist"> -->
+        <img class="navlogo" src="images\logo.png">
+        <li><a href="">Home</a></li>
+        <li><a href="">Team Challenges</a></li>
+        <li><a href="#!/roster">Rosters</a></li>
+        <li><a href="">Chat</a></li>
+        <!-- <div class="icondiv"><i class="material-icons">photo_library</i></div> -->
+        <li><a href="">Gallery</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <!-- <div class="icondiv"><i class="material-icons">share</i></div> -->
+        <li><a href="">Share</a></li>
+        <!-- </ul> -->
+      </nav>
+    </div>
+
+    <ng-view></ng-view>
+
+
+
+  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://code.angularjs.org/1.6.9/angular-route.min.js"></script>
+  <script src="module.js"></script>
+  <script src="components/rosterComponent.js"></script>
+  <script src="components/teamComponent.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+  <script src="services/RosterDataService.js"></script>
+
 </body>
 
 </html>
