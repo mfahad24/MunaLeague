@@ -3,9 +3,12 @@ var teamComponent = {
   templateUrl: `partials/rosterinfo.html`,
   controller: function (RosterDataService) {
     var $ctrl = this;
-    $ctrl.returnedData = RosterDataService.getRosterData(); 
-    console.log($ctrl.returnedData)
-    }
+
+    $ctrl.returned = RosterDataService.getRosterData();
+  console.log($ctrl.returned); 
+
+
+}
 }
 
 

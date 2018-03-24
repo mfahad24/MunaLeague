@@ -3,7 +3,10 @@
 } */
 
 body {
-  background-color: steelblue;
+  background-color: #122e5b;
+  color: #eaf0f9;
+  font-family: Tahoma;
+  font-size: 30px;
 }
 
 ul {
@@ -80,4 +83,22 @@ a:visited {
 
 span {
   cursor: pointer;
+}
+
+table {
+  /* border: 1px solid red; */
+  width: 100%;
+  /* border-bottom: 2px solid white; */
+}
+
+.firstrowoftable {
+  border: none;
+}
+
+td {
+/* border: 2px solid white; */
+}
+
+.tablediv {
+  text-align: center; 
 }
