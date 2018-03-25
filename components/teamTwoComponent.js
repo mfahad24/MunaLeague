@@ -1,6 +1,6 @@
 (function () {
-var teamComponent = {
-  templateUrl: `partials/teamone.html`, 
+var teamTwoComponent = {
+  templateUrl: `partials/teamtwo.html`, 
   controller: function (RosterDataService) {
     var $ctrl = this;
 
@@ -15,6 +15,6 @@ var teamComponent = {
 
 angular
 .module("myApp")
-.component("teamComponent", teamComponent)
+.component("teamTwoComponent", teamTwoComponent)
 
 })();

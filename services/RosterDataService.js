@@ -10,7 +10,6 @@ console.log(rosterData);
 
     function getRosterData() {
       var baseUrl = "https://sheets.googleapis.com/v4/spreadsheets/1_ruxo2ClEjT7XEDl4g53wYLn9pxv9ReNwWqnXmf7iLk/values/TeamA?valueRenderOption=FORMATTED_VALUE&key=AIzaSyD-wsGiTggef7kLCHtptNTBCPfZv2fryTI";
-      // var baseUrlTwo = "https://sheets.googleapis.com/v4/spreadsheets/1_ruxo2ClEjT7XEDl4g53wYLn9pxv9ReNwWqnXmf7iLk/values/TeamA?valueRenderOption=FORMATTED_VALUE&key=AIzaSyD-wsGiTggef7kLCHtptNTBCPfZv2fryTI"
 
       return $http({
         method: "GET",
