@@ -16,7 +16,7 @@ ul {
 }
 
 li {
-  margin-top: 20px;
+  margin-top: 30px;
   list-style-type: none;
     font-family: Tahoma;
     margin-left: 40px;
@@ -34,7 +34,7 @@ a:hover {
 }
 
 a:visited {
-  color: red;
+  color: black;
 }
 
 
@@ -75,11 +75,15 @@ a:visited {
   justify-content: space-between;
 } */
 
-/* #openclosediv {
-vertical-align: middle;
-display: table-cell;
-} */
+#openclosediv {
+display: flex;
+justify-content: flex-start;
+}
 
+div>p {
+  margin-top: 2px;
+  margin-left: 10px;
+}
 span {
   cursor: pointer;
 }
@@ -87,7 +91,6 @@ span {
 table {
   /* border: 1px solid red; */
   width: 100%;
-  /* border-bottom: 2px solid white; */
   font-size: 30px;
 }
 
@@ -95,16 +98,16 @@ table {
   border: none;
 }
 
-td {
-/* border: 2px solid white; */
-}
+/* td {
+border-bottom: 2px solid #4286f4;
+} */
 
 .tablediv {
   text-align: center;
 }
 
 .teamnametitle, .allteams, .selectteam {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .selectteam {
@@ -114,4 +117,21 @@ td {
 img {
   height: 200px;
   width: 200px;
+}
+
+#opennav {
+  width: 25px;
+  /* display: inline;  */
+}
+
+hr {
+  border-color: #4286f4;
+}
+
+/* .navselect {
+  display: inline-block;
+} */
+
+.material-icons {
+  cursor: pointer; 
 }
