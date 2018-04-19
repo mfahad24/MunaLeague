@@ -78,6 +78,7 @@ a:visited {
 #openclosediv {
 display: flex;
 justify-content: flex-start;
+/* margin-bottom: -10px;  */
 }
 
 div>p {
@@ -133,5 +134,12 @@ hr {
 } */
 
 .material-icons {
-  cursor: pointer; 
+  cursor: pointer;
+}
+
+.darkenbg {
+  position: fixed;
+  background-size: cover;
+  background-color: black;
+
 }
