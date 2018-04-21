@@ -2,17 +2,21 @@ $(document).ready(function() {
   $("#opennav").click(function(){
     $("#navdiv").animate({width:'toggle'},350);
     // $("#navdiv").fadeIn();
+    $(".overlay").addClass("darkenbg");
   });
+
 
   $("#navdiv").click(function(){
   $("#navdiv").animate({width:'toggle'},350);
+    $(".overlay").removeClass("darkenbg");
   });
 
-  $('a').click(function(e) {
-    $('.navselect').text($(this).attr('.navselect'));
-    history.pushState({}, '', $(this).attr('href'));
-    e.preventDefault();
-});
+
+//   $('a').click(function(e) {
+//     $('.navselect').text($(this).attr('.navselect'));
+//     history.pushState({}, '', $(this).attr('href'));
+//     e.preventDefault();
+// });
 
 
 });

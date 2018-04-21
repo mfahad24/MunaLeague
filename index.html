@@ -18,7 +18,7 @@
       <div id="opennav">
         <i class="material-icons">menu</i>
       </div>
-    <div>  <p class="navselect">Selection Should Update Here</p></div>
+    <div>  <p class="navselect"></p></div>
 
 
       <!-- <div id="closenav">
@@ -31,21 +31,21 @@
       <nav class="navbar">
         <!-- <ul class="navlist"> -->
         <img class="navlogo" src="images\logo.png">
-        <li><a href="">Home</a></li>
-        <li><a href="">Team Challenges</a></li>
-        <li><a href="#!/roster">Rosters</a></li>
-        <li><a href="">Chat</a></li>
+        <li><a href="" onclick="changeTitle($(this).text())">Home</a></li>
+        <li><a href="" onclick="changeTitle($(this).text())">Team Challenges</a></li>
+        <li><a href="#!/roster" onclick="changeTitle($(this).text())">Rosters</a></li>
+        <li><a href="" onclick="changeTitle($(this).text())">Chat</a></li>
         <!-- <div class="icondiv"><i class="material-icons">photo_library</i></div> -->
-        <li><a href="">Gallery</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="" onclick="changeTitle($(this).text())">Gallery</a></li>
+        <li><a href="" onclick="changeTitle($(this).text())">About</a></li>
+        <li><a href="" onclick="changeTitle($(this).text())">Contact</a></li>
         <!-- <div class="icondiv"><i class="material-icons">share</i></div> -->
-        <li><a href="">Share</a></li>
+        <li><a href="" onclick="changeTitle($(this).text())">Share</a></li>
         <!-- </ul> -->
       </nav>
     </div>
 
-    <div class="darkenbg">
+    <div class="overlay">
     </div>
 
     <ng-view></ng-view>
@@ -66,5 +66,10 @@
   <script src="services/RosterDataService.js"></script>
 
 </body>
+<script type="text/javascript">
+function changeTitle(text){
+  $(".navselect").text(text);
+}
+</script>
 
 </html>
