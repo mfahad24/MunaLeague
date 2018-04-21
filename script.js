@@ -12,6 +12,7 @@ $(document).ready(function() {
   });
 
 
+
 //   $('a').click(function(e) {
 //     $('.navselect').text($(this).attr('.navselect'));
 //     history.pushState({}, '', $(this).attr('href'));

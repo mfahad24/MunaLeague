@@ -96,7 +96,7 @@ table {
   /* border: 1px solid red; */
   width: 100%;
   font-size: 30px;
-  /* margin: 50px; */
+  margin-top: 50px;
   /* border: 2px solid red;  */
 }
 
@@ -107,10 +107,6 @@ table {
 .firstrowoftable {
   border: none;
 }
-
-/* td {
-border-bottom: 2px solid #4286f4;
-} */
 
 .tablediv {
   text-align: center;
