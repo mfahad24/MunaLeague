@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $("#opennav").click(function(){
     $("#navdiv").animate({width:'toggle'},350);
     // $("#navdiv").fadeIn();
@@ -10,6 +11,17 @@ $(document).ready(function() {
   $("#navdiv").animate({width:'toggle'},350);
     $(".overlay").removeClass("darkenbg");
   });
+
+  // $(document).click(function(e){
+  //     console.log("Hello");
+  //     if(  $(e.target).attr('id') != 'navdiv' ) {
+  //            $("#navdiv").hide();
+  //            $(".overlay").removeClass("darkenbg");
+  //      }
+  //
+  // });
+
+
 
 
 

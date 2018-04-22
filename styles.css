@@ -6,7 +6,7 @@ body {
   background-color: #122e5b;
   color: #eaf0f9;
   font-family: Tahoma;
-
+  margin: 0px;
 }
 
 ul {
@@ -82,6 +82,7 @@ a:visited {
 display: flex;
 justify-content: flex-start;
 /* margin-bottom: -10px;  */
+margin: 5px;
 }
 
 div>p {
@@ -110,7 +111,14 @@ table {
 
 .tablediv {
   text-align: center;
-  /* margin: 10px;  */
+  margin-right: 30px;
+  margin-left: 30px;
+  /* add these two margins back when adding border bottom */
+}
+
+td {
+  /* border-bottom: solid 1px #4286f4; */
+  padding: 10px;
 }
 
 .teamnametitle, .allteams, .selectteam {
