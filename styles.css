@@ -1,17 +1,18 @@
-/* html {
-  height: 100%;
-} */
+html {
+  font-family: "TahomaRegularfont";
+}
 
 body {
   background-color: #122e5b;
   color: #eaf0f9;
-  /* font-family: Tahoma; */
+  font-family: "TahomaRegularfont";
   margin: 0px;
 }
 
 @font-face {
-  font-family: 'Tahoma';
-  src: url('fonts/Tahoma Regular font.ttf');
+  font-family: "TahomaRegularfont";
+  src: url('fonts/TahomaRegularfont.ttf');
+}
 
 ul {
   /* list-style-type: none; */
